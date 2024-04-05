@@ -28,7 +28,7 @@ app.layout = html.Div(children=[ html.H1('Flight Delay Time Statistics',
                                 html.Div([
                                         html.Div(dcc.Graph(id='carrier-plot')),
                                         html.Div(dcc.Graph(id='weather-plot'))
-                                ], style={'display': 'flex'}),
+                                ], style={'display': 'flex'}), # choose display methhod to be flex which makes graphs side by side
                                 # Segment 2
                                 html.Div([
                                         html.Div(dcc.Graph(id='nas-plot')),
