@@ -24,12 +24,6 @@ app.layout = html.Div(children=[html.H1('Australia Wildfire Dashboard',
      #outer division starts
      html.Div([
                    # First inner divsion for  adding dropdown helper text for Selected Drive wheels
-                    
-                    # html.Div([
-                    #         html.H2('Select Region:', style={'margin-right': '2em'}),
-                    #         #Radio items to select the region
-                    #         dcc.RadioItems(['NSW','QL','SA','TA','VI','WA'], 'NSW', id='region',inline=True)]),
-            
                     html.Div([
                             html.H2('Select Region:', style={'margin-right': '2em'}),
 
